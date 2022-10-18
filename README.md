@@ -39,9 +39,9 @@ The _printf() function produces output according to a format which is described 
 **Authors**
 
 * [majimpala](https://github.com/majimpala)
-* [Sylvia otieno](https://github.com/sotieno)
+* [Sylvia Otieno](https://github.com/sotieno)
 
 ###
 ###
-Slyvia Otieno
-Aaron mrima
+Sylvia Otieno
+Aaron Mrima
