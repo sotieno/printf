@@ -1,19 +1,18 @@
-# C - printf
+# Secrets of printf in C
 
-![](https://github.com/daveeazi/printf/blob/master/Image/giy.jpg)
-
----
-
-In this project, we'll learn to work collaboratively using GitHub to create a printf function.
-
+![](https://blog.vantagecircle.com/content/images/size/w1000/2020/08/teamwork-and-team-building.png)
 
 ---
 
-## We are allowed to use these functions or macros only:
+In this project, we unlock the secrets of printf while working in collaboration on GitHub to create a custom printf function.
+
+---
+
+## What is the printf function:
 
 **Description**
 :----
-The _printf() function produces output according to a format which is described below. This function write its output to the stdout, the standard output. Returns the count of printed characters when the function is successful The available convertion specifiers are:
+printf is the C language function to do formatted printing and from this project we learn how it works and how to design the proper formatting specification for any occasion. This function write its output to the stdout (standard output) and returns the count of printed characters when the function is successful. The available convertion specifiers are:
 
 * %c: Prints a single character.
 * %s: Prints a string of characters.
@@ -25,16 +24,29 @@ The _printf() function produces output according to a format which is described 
 * %X:Prints the hexadecial representation of an unsigned decimal in uppercase letters
 * %r: Prints a reversed string
 
-### Compilation
+## Functions and macros in use:
 
+**Description**
+
+* write: allows you to communicate with other users
+* malloc: allows you to allocate memory dynamically
+* free: allows you to free dynamically allocated memory
+* va_start: macro
+* va_end: macro
+* va_copy: macro
+* va_arg: macro
+
+### Compilation
 
 **Note**
 
-* The code is compiles using: `gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c`
+* The code is compiled using: `gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c`
 
-* As a consequence, be careful not to push any c file containing a main function in the root directory of your project (you could have a test folder containing all your tests files including main functions)
+* The gcc flag `-Wno-format` is used when testing your `_printf` and the standard `printf`
 
-* You might want to look at the gcc flag `-Wno-format` when testing with your `_printf` and the standard `printf`
+* The c project files include the main header file `main.h` and exclude a main function
+
+* A test folder containing all c test files including main functions is included
 
 **Authors**
 
