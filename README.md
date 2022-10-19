@@ -38,11 +38,11 @@ printf is the C language function to do formatted printing and from this project
 
 ### Compilation
 
-**Note**
+**Notes**
 
 * The code is compiled using: `gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c`
 
-* The gcc flag `-Wno-format` is used when testing your `_printf` and the standard `printf`
+* The gcc flag `-Wno-format` is used when testing the `_printf` and the standard `printf`
 
 * The c project files include the main header file `main.h` and exclude a main function
 
